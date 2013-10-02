@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<projectProfile type="default" version="1.12.3">
+  <projectDirectory>
+    <projectProfileFile filesystemName=".zfproject.xml"/>
+    <applicationDirectory classNamePrefix="Application_">
+      <configsDirectory>
+        <applicationConfigFile type="ini"/>
+      </configsDirectory>
+      <controllersDirectory>
+        <controllerFile controllerName="Index">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="updateuserpwslogin"/>
+        </controllerFile>
+        <controllerFile controllerName="Error"/>
+        <controllerFile controllerName="Register">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="registersucess"/>
+        </controllerFile>
+        <controllerFile controllerName="Login">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="loginsucess"/>
+          <actionMethod actionName="updateuser"/>
+          <actionMethod actionName="organise"/>
+          <actionMethod actionName="updateuserpws"/>
+          <actionMethod actionName="updaresucess"/>
+          <actionMethod actionName="updatesucess"/>
+          <actionMethod actionName="changepasswordsucess"/>
+          <actionMethod actionName="productregistersucess"/>
+          <actionMethod actionName="addproduct"/>
+          <actionMethod actionName="viewproduct"/>
+          <actionMethod actionName="addmedia"/>
+        </controllerFile>
+      </controllersDirectory>
+      <formsDirectory>
+        <formFile formName="Register"/>
+        <formFile formName="Login"/>
+        <formFile formName="Loginsucess"/>
+        <formFile formName="Registersucess"/>
+        <formFile formName="Profileupdate"/>
+        <formFile formName="Changepassword"/>
+        <formFile formName="Organise"/>
+        <formFile formName="Updatesucess"/>
+        <formFile formName="Passwordchanged"/>
+        <formFile formName="Productregistersucess"/>
+        <formFile formName="Addproduct"/>
+        <formFile formName="Viewproduct"/>
+        <formFile formName="Addmedia"/>
+      </formsDirectory>
+      <layoutsDirectory>
+        <layoutScriptsDirectory>
+          <layoutScriptFile layoutName="layout"/>
+        </layoutScriptsDirectory>
+      </layoutsDirectory>
+      <modelsDirectory>
+        <dbTableDirectory>
+          <dbTableFile dbTableName="User"/>
+          <dbTableFile dbTableName="Userpassword"/>
+          <dbTableFile dbTableName="Product"/>
+          <dbTableFile dbTableName="Productproperty"/>
+          <dbTableFile dbTableName="Productppropertymedia"/>
+          <dbTableFile dbTableName="Product1"/>
+        </dbTableDirectory>
+        <modelFile modelName="User"/>
+        <modelFile modelName="Usermapper"/>
+        <modelFile modelName="Userpassword"/>
+        <modelFile modelName="Userpasswordmapper"/>
+        <modelFile modelName="Productpropertymapper"/>
+        <modelFile modelName="Productproperty"/>
+        <modelFile modelName="Productpropertymediamapper"/>
+        <modelFile modelName="Productpropertymedia"/>
+        <modelFile modelName="Productmapper"/>
+        <modelFile modelName="Product"/>
+      </modelsDirectory>
+      <modulesDirectory enabled="false"/>
+      <servicesDirectory enabled="false"/>
+      <viewsDirectory>
+        <viewScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Error">
+            <viewScriptFile forActionName="error"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Register">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="loginsucess"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Register">
+            <viewScriptFile forActionName="registersucess"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="updateuser"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="updateuserpwslogin"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="organise"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="updateuserpws"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="updaresucess"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="updatesucess"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="changepasswordsucess"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="productregistersucess"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="addproduct"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="viewproduct"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="addmedia"/>
+          </viewControllerScriptsDirectory>
+        </viewScriptsDirectory>
+        <viewHelpersDirectory/>
+        <viewFiltersDirectory enabled="false"/>
+      </viewsDirectory>
+      <bootstrapFile filesystemName="Bootstrap.php"/>
+    </applicationDirectory>
+    <dataDirectory enabled="false">
+      <cacheDirectory enabled="false"/>
+      <searchIndexesDirectory enabled="false"/>
+      <localesDirectory enabled="false"/>
+      <logsDirectory enabled="false"/>
+      <sessionsDirectory enabled="false"/>
+      <uploadsDirectory enabled="false"/>
+    </dataDirectory>
+    <docsDirectory>
+      <file filesystemName="README.txt"/>
+    </docsDirectory>
+    <libraryDirectory>
+      <zfStandardLibraryDirectory enabled="false"/>
+    </libraryDirectory>
+    <publicDirectory>
+      <publicStylesheetsDirectory enabled="false"/>
+      <publicScriptsDirectory enabled="false"/>
+      <publicImagesDirectory enabled="false"/>
+      <publicIndexFile filesystemName="index.php"/>
+      <htaccessFile filesystemName=".htaccess"/>
+    </publicDirectory>
+    <projectProvidersDirectory enabled="false"/>
+    <temporaryDirectory enabled="false"/>
+    <testsDirectory>
+      <testPHPUnitConfigFile filesystemName="phpunit.xml"/>
+      <testPHPUnitBootstrapFile filesystemName="bootstrap.php"/>
+      <testApplicationDirectory>
+        <testApplicationControllerDirectory>
+          <testApplicationControllerFile forControllerName="Index"/>
+        </testApplicationControllerDirectory>
+      </testApplicationDirectory>
+      <testLibraryDirectory/>
+    </testsDirectory>
+  </projectDirectory>
+</projectProfile>
